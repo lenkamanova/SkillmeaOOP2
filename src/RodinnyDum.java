@@ -6,7 +6,7 @@ public class RodinnyDum {
 
     public void vypocetCenyDomu (int cenaZaMetr, String jmenoRodiny){
         float cena = rozloha * cenaZaMetr * pocetPoschodi;
-        System.out.println(jmenoRodiny + " " +(rozloha * cenaZaMetr * pocetPoschodi));
+        System.out.println(jmenoRodiny + " " + cena);
 
     }
 
