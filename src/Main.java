@@ -3,7 +3,8 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
 
-       // Random nahCislo = new Random();
+       Random nahCislo = new Random();
+       nahCislo.nextInt();
 
         RodinnyDum dumNovaku = new RodinnyDum();
         dumNovaku.pocetPoschodi = 4;
@@ -18,8 +19,5 @@ public class Main {
 
 
 
-
-
-        Random genCisel = new Random();
     }
 }
